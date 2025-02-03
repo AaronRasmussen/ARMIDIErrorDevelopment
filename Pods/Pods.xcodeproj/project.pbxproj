@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 71;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084201ABFA2974779EC198F0BCBE4E4E /* Pods-ARMIDIErrorDevelopmentTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 859E92ABD06289C5EE329057593E74F1 /* Pods-ARMIDIErrorDevelopmentTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2299BA54DCE1FEA894A0A67458E5BB51 /* ARMIDIError-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 737F3A0DA87372E620056FAFE490ECE0 /* ARMIDIError-dummy.m */; };
+		286FCBF0709EBB63C83016C2F8A9DAA9 /* ARMIDIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FCCFABCC8E4E7B0433D6794C03C572 /* ARMIDIError.swift */; };
+		3F1D41DB47A00197D2D1E73BEB1A087F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE00D34B275026D4656C738BED5A001 /* Cocoa.framework */; };
+		6E8C45BE0A2361A5F1F59808FDE4931C /* Pods-ARMIDIErrorDevelopmentTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C56B793AA0BC598A0966126120DC3659 /* Pods-ARMIDIErrorDevelopmentTests-dummy.m */; };
+		B41060202D5157AA001D6EDB /* AROSStatusDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B410601F2D5157AA001D6EDB /* AROSStatusDescription.swift */; };
+		B41060212D5157AA001D6EDB /* AROSStatusDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B410601F2D5157AA001D6EDB /* AROSStatusDescription.swift */; };
+		BDB84E0399B3422B6C5E232E89BA1F79 /* ARMIDIError-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04002FFF2F466A1B86DABD0401105BFC /* ARMIDIError-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C091FF82135ECF1EFE5772F9277D0052 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE00D34B275026D4656C738BED5A001 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7378B761D0DB8C98BB892E44333CE61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8FEA11224500603BB42D739868C6A38;
+			remoteInfo = ARMIDIError;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04002FFF2F466A1B86DABD0401105BFC /* ARMIDIError-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARMIDIError-umbrella.h"; sourceTree = "<group>"; };
+		154431F83BD8D68B1AAEF88AAABB70A5 /* Pods-ARMIDIErrorDevelopmentTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARMIDIErrorDevelopmentTests-Info.plist"; sourceTree = "<group>"; };
+		170A59FEBD1C942796AA3F2329405084 /* Pods-ARMIDIErrorDevelopmentTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARMIDIErrorDevelopmentTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D01660A731470229F268D362353DD70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		41A7099798CE983D7EDD95BBD6D80AB9 /* Pods-ARMIDIErrorDevelopmentTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARMIDIErrorDevelopmentTests-frameworks.sh"; sourceTree = "<group>"; };
+		4A3F568A914B0F064FCE29CBF2C22DBC /* ARMIDIError.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ARMIDIError.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E651CFA4E5B0BF0AB629521BF1B3D17 /* ARMIDIError.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ARMIDIError.modulemap; sourceTree = "<group>"; };
+		4ECBCE6F4E4899DC2447CE3387DFBD5F /* Pods-ARMIDIErrorDevelopmentTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARMIDIErrorDevelopmentTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59628503506AD0DD74728B141EFD854F /* Pods-ARMIDIErrorDevelopmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARMIDIErrorDevelopmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		6853BDD5D98833D5AE862F02E7CC95C1 /* ARMIDIError.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARMIDIError.release.xcconfig; sourceTree = "<group>"; };
+		698D6F5E5CC4A30078AA2C5AF9F9256B /* ARMIDIError.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ARMIDIError.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		69FCCFABCC8E4E7B0433D6794C03C572 /* ARMIDIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ARMIDIError.swift; path = Sources/ARMIDIError.swift; sourceTree = "<group>"; };
+		737F3A0DA87372E620056FAFE490ECE0 /* ARMIDIError-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ARMIDIError-dummy.m"; sourceTree = "<group>"; };
+		750B42F2E52A335E808E359AD4F6D5FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		845A5D2476545DB40B9C93DE61816BA7 /* Pods-ARMIDIErrorDevelopmentTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ARMIDIErrorDevelopmentTests.modulemap"; sourceTree = "<group>"; };
+		859E92ABD06289C5EE329057593E74F1 /* Pods-ARMIDIErrorDevelopmentTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARMIDIErrorDevelopmentTests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EE00D34B275026D4656C738BED5A001 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		AA50A5FBBA660E88F11A81E921F9D1C3 /* Pods_ARMIDIErrorDevelopmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARMIDIErrorDevelopmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B410601F2D5157AA001D6EDB /* AROSStatusDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AROSStatusDescription.swift; path = Sources/AROSStatusDescription.swift; sourceTree = "<group>"; };
+		C17002733F6B22F6CAF6E7D01B7C1125 /* ARMIDIError-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ARMIDIError-Info.plist"; sourceTree = "<group>"; };
+		C56B793AA0BC598A0966126120DC3659 /* Pods-ARMIDIErrorDevelopmentTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARMIDIErrorDevelopmentTests-dummy.m"; sourceTree = "<group>"; };
+		C765C47C78B55B044C2F7AC9824A23D1 /* ARMIDIError-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ARMIDIError-prefix.pch"; sourceTree = "<group>"; };
+		E69BB72028990A70D2A985C6A5EF1C9B /* ARMIDIError.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ARMIDIError.debug.xcconfig; sourceTree = "<group>"; };
+		F5D30B7B7A6E268C9F4A094FA4908267 /* Pods-ARMIDIErrorDevelopmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARMIDIErrorDevelopmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561D4AD5CD2AD525BE0C5EF4D7645368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C091FF82135ECF1EFE5772F9277D0052 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6666A584E71E2B3BC477492811FB24B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1D41DB47A00197D2D1E73BEB1A087F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20F4E32C32BF17B82217175023802301 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E651CFA4E5B0BF0AB629521BF1B3D17 /* ARMIDIError.modulemap */,
+				737F3A0DA87372E620056FAFE490ECE0 /* ARMIDIError-dummy.m */,
+				C17002733F6B22F6CAF6E7D01B7C1125 /* ARMIDIError-Info.plist */,
+				C765C47C78B55B044C2F7AC9824A23D1 /* ARMIDIError-prefix.pch */,
+				04002FFF2F466A1B86DABD0401105BFC /* ARMIDIError-umbrella.h */,
+				E69BB72028990A70D2A985C6A5EF1C9B /* ARMIDIError.debug.xcconfig */,
+				6853BDD5D98833D5AE862F02E7CC95C1 /* ARMIDIError.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Projects/ARMIDIErrorDevelopment/Pods/Target Support Files/ARMIDIError";
+			sourceTree = "<group>";
+		};
+		434115BEB41C3D515DB813982795FC80 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCEC31784B1A4880BBEA98C21C48D23B /* ARMIDIError */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5C130ACA3F368B9740FB29B1ECCF59D7 /* Pods-ARMIDIErrorDevelopmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				845A5D2476545DB40B9C93DE61816BA7 /* Pods-ARMIDIErrorDevelopmentTests.modulemap */,
+				4ECBCE6F4E4899DC2447CE3387DFBD5F /* Pods-ARMIDIErrorDevelopmentTests-acknowledgements.markdown */,
+				170A59FEBD1C942796AA3F2329405084 /* Pods-ARMIDIErrorDevelopmentTests-acknowledgements.plist */,
+				C56B793AA0BC598A0966126120DC3659 /* Pods-ARMIDIErrorDevelopmentTests-dummy.m */,
+				41A7099798CE983D7EDD95BBD6D80AB9 /* Pods-ARMIDIErrorDevelopmentTests-frameworks.sh */,
+				154431F83BD8D68B1AAEF88AAABB70A5 /* Pods-ARMIDIErrorDevelopmentTests-Info.plist */,
+				859E92ABD06289C5EE329057593E74F1 /* Pods-ARMIDIErrorDevelopmentTests-umbrella.h */,
+				F5D30B7B7A6E268C9F4A094FA4908267 /* Pods-ARMIDIErrorDevelopmentTests.debug.xcconfig */,
+				59628503506AD0DD74728B141EFD854F /* Pods-ARMIDIErrorDevelopmentTests.release.xcconfig */,
+			);
+			name = "Pods-ARMIDIErrorDevelopmentTests";
+			path = "Target Support Files/Pods-ARMIDIErrorDevelopmentTests";
+			sourceTree = "<group>";
+		};
+		6CF8013CA832F8AB5DDAE0156C97FD88 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				9EE00D34B275026D4656C738BED5A001 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		B064885A0D132386772614FCD9F5CC68 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C130ACA3F368B9740FB29B1ECCF59D7 /* Pods-ARMIDIErrorDevelopmentTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BCEC31784B1A4880BBEA98C21C48D23B /* ARMIDIError */ = {
+			isa = PBXGroup;
+			children = (
+				69FCCFABCC8E4E7B0433D6794C03C572 /* ARMIDIError.swift */,
+				B410601F2D5157AA001D6EDB /* AROSStatusDescription.swift */,
+				C9D5B3B5B3753A79E41C5B510D62572E /* Pod */,
+				20F4E32C32BF17B82217175023802301 /* Support Files */,
+			);
+			name = ARMIDIError;
+			path = /Users/aaronrasmussen/Development/Pods/ARMIDIError;
+			sourceTree = "<absolute>";
+		};
+		C9D5B3B5B3753A79E41C5B510D62572E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				698D6F5E5CC4A30078AA2C5AF9F9256B /* ARMIDIError.podspec */,
+				1D01660A731470229F268D362353DD70 /* LICENSE */,
+				750B42F2E52A335E808E359AD4F6D5FA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				434115BEB41C3D515DB813982795FC80 /* Development Pods */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				DE346F84145906BAC9D07DEED3B5178D /* Products */,
+				B064885A0D132386772614FCD9F5CC68 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DE346F84145906BAC9D07DEED3B5178D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A3F568A914B0F064FCE29CBF2C22DBC /* ARMIDIError.framework */,
+				AA50A5FBBA660E88F11A81E921F9D1C3 /* Pods_ARMIDIErrorDevelopmentTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CF8013CA832F8AB5DDAE0156C97FD88 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		076ACDB13B76A65F43AE747A9752458C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB84E0399B3422B6C5E232E89BA1F79 /* ARMIDIError-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		214D73CF89CD4B42E38234A3BBEF1DC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084201ABFA2974779EC198F0BCBE4E4E /* Pods-ARMIDIErrorDevelopmentTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		84DB0A6CDF675CD39502B88DE56ED2A7 /* Pods-ARMIDIErrorDevelopmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 779E9487F29E6C40C31A758483487873 /* Build configuration list for PBXNativeTarget "Pods-ARMIDIErrorDevelopmentTests" */;
+			buildPhases = (
+				214D73CF89CD4B42E38234A3BBEF1DC5 /* Headers */,
+				7F2AA09C8774F31B2CC8C8C6AFFBE673 /* Sources */,
+				E6666A584E71E2B3BC477492811FB24B /* Frameworks */,
+				306E982805E0ED85C9BFDFD84832983A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85EBD6FF4942EC93B1B6FEC20804CBC /* PBXTargetDependency */,
+			);
+			name = "Pods-ARMIDIErrorDevelopmentTests";
+			productName = Pods_ARMIDIErrorDevelopmentTests;
+			productReference = AA50A5FBBA660E88F11A81E921F9D1C3 /* Pods_ARMIDIErrorDevelopmentTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8FEA11224500603BB42D739868C6A38 /* ARMIDIError */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79104749CD6578E202D81B02D8DD6382 /* Build configuration list for PBXNativeTarget "ARMIDIError" */;
+			buildPhases = (
+				076ACDB13B76A65F43AE747A9752458C /* Headers */,
+				C33CBE2B4BBE68D768094AF43EE5909D /* Sources */,
+				561D4AD5CD2AD525BE0C5EF4D7645368 /* Frameworks */,
+				A61125D35053FF28831F86151A48EC12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARMIDIError;
+			productName = ARMIDIError;
+			productReference = 4A3F568A914B0F064FCE29CBF2C22DBC /* ARMIDIError.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					84DB0A6CDF675CD39502B88DE56ED2A7 = {
+						LastSwiftMigration = 1620;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DE346F84145906BAC9D07DEED3B5178D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8FEA11224500603BB42D739868C6A38 /* ARMIDIError */,
+				84DB0A6CDF675CD39502B88DE56ED2A7 /* Pods-ARMIDIErrorDevelopmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		306E982805E0ED85C9BFDFD84832983A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61125D35053FF28831F86151A48EC12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F2AA09C8774F31B2CC8C8C6AFFBE673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E8C45BE0A2361A5F1F59808FDE4931C /* Pods-ARMIDIErrorDevelopmentTests-dummy.m in Sources */,
+				B41060212D5157AA001D6EDB /* AROSStatusDescription.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33CBE2B4BBE68D768094AF43EE5909D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286FCBF0709EBB63C83016C2F8A9DAA9 /* ARMIDIError.swift in Sources */,
+				B41060202D5157AA001D6EDB /* AROSStatusDescription.swift in Sources */,
+				2299BA54DCE1FEA894A0A67458E5BB51 /* ARMIDIError-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D85EBD6FF4942EC93B1B6FEC20804CBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ARMIDIError;
+			target = F8FEA11224500603BB42D739868C6A38 /* ARMIDIError */;
+			targetProxy = F7378B761D0DB8C98BB892E44333CE61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AE172D8F2A4843BFACAD21A0ED26541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0E41A4E0DA429448E0BE06211B2E2979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E69BB72028990A70D2A985C6A5EF1C9B /* ARMIDIError.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ARMIDIError/ARMIDIError-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ARMIDIError/ARMIDIError-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/ARMIDIError/ARMIDIError.modulemap";
+				PRODUCT_MODULE_NAME = ARMIDIError;
+				PRODUCT_NAME = ARMIDIError;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		808E544862838153672EA12FCC127D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B37071A17FF9B969747DE0D3C76CC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6853BDD5D98833D5AE862F02E7CC95C1 /* ARMIDIError.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ARMIDIError/ARMIDIError-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ARMIDIError/ARMIDIError-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/ARMIDIError/ARMIDIError.modulemap";
+				PRODUCT_MODULE_NAME = ARMIDIError;
+				PRODUCT_NAME = ARMIDIError;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEBB69AAB7D0EFBCB621B12B31081F3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59628503506AD0DD74728B141EFD854F /* Pods-ARMIDIErrorDevelopmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ARMIDIErrorDevelopmentTests/Pods-ARMIDIErrorDevelopmentTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARMIDIErrorDevelopmentTests/Pods-ARMIDIErrorDevelopmentTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 6.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8E0D2354B1373BCC1C62E18DB6B7272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D30B7B7A6E268C9F4A094FA4908267 /* Pods-ARMIDIErrorDevelopmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-ARMIDIErrorDevelopmentTests/Pods-ARMIDIErrorDevelopmentTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-ARMIDIErrorDevelopmentTests/Pods-ARMIDIErrorDevelopmentTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808E544862838153672EA12FCC127D9A /* Debug */,
+				0AE172D8F2A4843BFACAD21A0ED26541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		779E9487F29E6C40C31A758483487873 /* Build configuration list for PBXNativeTarget "Pods-ARMIDIErrorDevelopmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8E0D2354B1373BCC1C62E18DB6B7272 /* Debug */,
+				AEBB69AAB7D0EFBCB621B12B31081F3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79104749CD6578E202D81B02D8DD6382 /* Build configuration list for PBXNativeTarget "ARMIDIError" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E41A4E0DA429448E0BE06211B2E2979 /* Debug */,
+				8B37071A17FF9B969747DE0D3C76CC5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

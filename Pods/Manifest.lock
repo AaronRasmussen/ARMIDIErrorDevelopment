@@ -1,0 +1,16 @@
+PODS:
+  - ARMIDIError (0.1.0)
+
+DEPENDENCIES:
+  - ARMIDIError (from `/Users/aaronrasmussen/Development/Pods/ARMIDIError`)
+
+EXTERNAL SOURCES:
+  ARMIDIError:
+    :path: "/Users/aaronrasmussen/Development/Pods/ARMIDIError"
+
+SPEC CHECKSUMS:
+  ARMIDIError: 23d3ac70f00a8d5ebae2df543d73687f481dde7e
+
+PODFILE CHECKSUM: 24749688fa5a5f154856a5607ce69521657da86b
+
+COCOAPODS: 1.16.2
