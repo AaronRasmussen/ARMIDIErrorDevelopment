@@ -1,6 +1,6 @@
 {
   "name": "ARMIDIError",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "summary": "A Swift Error type for handling OSStatus error codes returned by CoreMIDI functions.",
   "description": "ARMIDIError is a Swift Error type that can be used to handle errors produced by CoreMIDI functions. CoreMIDI functions use OSStatus codes to represent errors. Each of the OSStatus errors defined by CoreMIDI throws a corresponding ARMIDI error.",
   "homepage": "https://github.com/AaronRasmussen/ARMIDIError",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/AaronRasmussen/ARMIDIError.git",
-    "tag": "0.1.0"
+    "tag": "0.1.4"
   },
   "platforms": {
     "osx": "10.15"

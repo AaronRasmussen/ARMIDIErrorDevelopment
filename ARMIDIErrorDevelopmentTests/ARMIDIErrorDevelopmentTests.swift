@@ -26,8 +26,7 @@ struct ARMIDIErrorDevelopmentTests {
     @Test func nilStatusDescription() async throws {
         
         #expect(
-            MIDIError(kAudioFormatUnknownFormatError).statusDescription == "!fmt"
-        )
+            MIDIError(kAudioFormatUnknownFormatError).statusDescription == "!fmt")
     }
     
     @Test func errorDescription() async throws {
@@ -55,5 +54,9 @@ struct ARMIDIErrorDevelopmentTests {
         #expect(
             MIDIError(0).description == errorString
         )
+    }
+    
+    @Test func asciiTest() async {
+        #expect(Int32(0x20202020).statusDescription != nil)
     }
 }
